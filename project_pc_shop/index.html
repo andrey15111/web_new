@@ -1,0 +1,233 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Главная страница</title>
+  <link rel="icon" href="img/icon-hog.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="frontend/public/css/app.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.svg" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Меню</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Мероприятия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="log-in.html">Войти</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="cart" id="cart">
+        <img class="cart__image" src="./img/cart.png" alt="Cart" width="32" height="32" />
+        <div class="cart__num" id="cart_num">0</div>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mt-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slider-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider-3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider-4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+      </button>
+    </div>
+  </section>
+
+
+              <div class="container">
+                <div class="section">
+                  <h3><a>Хинкали</a></h3>
+                </div>
+                <div class="products">
+                  <div class="product-item">
+                    <div>
+                      <img src="img/xinkali-1.png">
+                    </div>
+                    <h3><a href="">Хинкали с мясом и зеленью</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>35₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end">+</button>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div>
+                      <img src="img/xinkali-1.png">
+                    </div>
+                    <h3><a href="">Хинкали с сыром</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>45₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div>
+                      <img src="img/xinkali-1.png">
+                    </div>
+                    <h3><a href="">Хинкали с грибами</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>45₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div>
+                      <img src="img/xinkali-1.png">
+                    </div>
+                    <h3><a href="">Хинкали с говядиной</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>45₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="section">
+                  <h3><a>Мучное</a></h3>
+                </div>
+                 <div class="products">
+                  <div class="product-item">
+                    <div>
+                      <img src="img/xachapuri-1.png">
+                    </div>
+                    <h3><a href="">Хачапури по-аджарски</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>310₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div>
+                      <img src="img/xachapuri-2.png">
+                    </div>
+                    <h3><a href="">Хачапури по-мегрельски</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>305₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div>
+                      <img src="img/xleb.png">
+                    </div>
+                    <h3><a href="">Хлеб пури</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>20₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                </div>
+                  <div class="section">
+                    <h3><a>Соусы</a></h3>
+                  </div>
+                <div class="products">
+                  <div class="product-item">
+                    <div>
+                      <img src="img/souce-1.png">
+                    </div>
+                    <h3><a href="">Аджика</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>35₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div>
+                      <img src="img/souce2.png">
+                    </div>
+                    <h3><a href="">Мацони</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>35₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div>
+                      <img src="img/souce3.png">
+                    </div>
+                    <h3><a href="">Сацебели</a></h3>
+                    <div class="price-container">
+                      <div class="price"><a>35₽</a></div>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-outline-warning rounded-circle float-end" >+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </main>
+
+            <footer>
+              <div class="container">
+                <div>«Старик Хинкалыч» © 2023</div>
+                <div>Все права защищены.</div>
+              </div>
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+          </body>
+
+          </html>

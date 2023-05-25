@@ -1,0 +1,247 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .navbar-collapse {
+  width: 100%;
+  justify-content: space-between;
+}
+/*.navbar ul {*/
+/*  display: flex;*/
+/*  list-style: none;*/
+/*}*/
+
+/*.navbar ul li a {*/
+/*  text-decoration: none;*/
+/*  font-weight: bold;*/
+/*  color: black;*/
+/*  padding: 20px 0px;*/
+/*  line-height: 1;*/
+/*  -webkit-transition: all 0.5s ease;*/
+/*  transition: all 0.5s ease;*/
+/*  margin-left: 30px;*/
+/*}*/
+
+/*.navbar ul li a:hover{*/
+/*  color: dimgrey;*/
+/*}*/
+header{
+  border-bottom: 3px solid #eee;
+}
+
+header .container {
+  padding: 15px;
+}
+
+.products {
+  margin-top: 20px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.products .product-item {
+  margin: 15px;
+  width: calc(25% - 30px);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background-color: white;
+}
+.products .product-item img{
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.products .product-item h3 {
+  text-align: center;
+  font-size: 20px;
+}
+.products .product-item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.products .product-item a:hover{
+  color: dimgrey;
+}
+
+main {
+  margin-bottom: 25px;
+}
+footer {
+  margin-top: 25px;
+  background-color: white;
+  padding: 15px;
+}
+footer .container a {
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*.products .product-item .button-basket {*/
+/*  border-radius: 50%;*/
+/*  color: white;*/
+/*  text-decoration: none;*/
+/*  outline: none;*/
+/*  border-width: 2px 0;*/
+/*  border-style: solid none;*/
+/*  border-color: #FDBE33 #000 #D77206;*/
+/*  background: linear-gradient(#F3AE0F, #E38916) #E38916;*/
+/*  transition: 0.2s;*/
+/*  float: right;*/
+/*  margin-bottom: 25px;*/
+/*  margin-right: 25px;*/
+/*  font-size: 30px;*/
+/*}*/
+/*.products .product-item .button-basket:hover {*/
+/*  background: linear-gradient(#f5ae00, #f59500) #f5ae00;*/
+/*}*/
+/*.products .product-item .button-basket:active {*/
+/*  background: linear-gradient(#f59500, #f5ae00) #f59500;*/
+/*}*/
+.products .product-item button{
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.section a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 20px 0px;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-left: 10px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.section h3{
+  margin-top: 20px;
+}
+
+.products .product-item .price-container .price a{
+  font-size: 25px;
+  margin-left: 25px;
+  color: darkred;
+}
+
+.login-form {
+  background-color: #fff;
+  width: 400px;
+  margin: 150px auto;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 7px;
+  transition: 1s;
+}
+
+
+
+/*.login-form .button-login {*/
+/*  border-radius: 5px;*/
+/*  color: white;*/
+/*  text-decoration: none;*/
+/*  outline: none;*/
+/*  border-width: 2px 0;*/
+/*  border-style: solid none;*/
+/*  border-color: #FDBE33 #000 #D77206;*/
+/*  background: linear-gradient(#F3AE0F, #E38916) #E38916;*/
+/*  transition: 0.2s;*/
+/*  font-size: 20px;*/
+/*}*/
+
+/*.login-form .button-login:hover {*/
+/*  background: linear-gradient(#f5ae00, #f59500) #f5ae00;*/
+/*}*/
+
+/*.login-form .button-login:active {*/
+/*  background: linear-gradient(#f59500, #f5ae00) #f59500;*/
+/*}*/
+
+.login-form .input-container a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-size: 80%;
+}
+
+.login-form .input-container a:hover {
+  color: #f5ae00;
+}
+
+.login-form .input-container input {
+  font-size: 80%;
+}
+
+.login-form h1{
+  font-size: 200%;
+  padding: 20px;
+}
+
+.carousel {
+  margin: auto;
+  width: 1200px;
+  border-radius: 55px 55px 55px 55px;
+  overflow: hidden;
+}
+
+.cart {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #364364;
+  transition: 0.1s;
+  cursor: pointer;
+  position: fixed; /* Фиксированное расположение */
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Увеличиваем кнопку при наведении на нее */
+.cart:hover {
+  transform: scale(1.1);
+}
+
+/* Стилизуем счетчик товаров */
+.cart-num {
+  position: absolute;
+  background-color: #d62240;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  top: -5px;
+  right: -5px;
+}
+
